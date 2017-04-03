@@ -33,11 +33,8 @@ nav span{
 .main{
     justify-content: center;
     align-items: center;
-    position: relative;
     margin: 0 auto;
-
-    font-size: 3.5rem;
-    line-height: 1;
+    font-size: 2rem;
 }
 .container{
     display: flex;
@@ -60,6 +57,7 @@ nav span{
 }
 .text{
     margin-top: 1rem;
+    font-size: 2.5rem;
 }
 .content{
   width: 40%;
@@ -79,9 +77,6 @@ nav span{
     text-align: center;
     font-size: 2rem;
   }
-  .text{
-      font-size: 2.5rem;
-  }
 
 /* second quarter */
 .quarter2{
@@ -93,20 +88,17 @@ nav span{
     display: block;
     width: 60%;
 }
-.imgcontent{
 
-
-    margin-right: 0;
-}
 .imgcontent img{
         width: 100%;
   }
 .txtcontent{
     margin-top: 32px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .txtcontent h1{
     margin-bottom: 24px;
+    font-size: 3.5rem;
 }
 .bold{
     margin-top: 24px;
@@ -131,7 +123,6 @@ nav span{
     padding-top: 25px;
 }
 .info{
-    line-height: 1.5;
     padding-left: 16px;
 }
 .info a{
@@ -139,4 +130,61 @@ nav span{
 }
 .qarter2.pictures{
     background-color: lightgray;
+}
+/* begin Q3 */
+.courses{
+  display: block;
+  background-color: #d4d2d8;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.classes{
+    padding: 32px;
+}
+.description{
+    background-color: whitesmoke;
+    width: 33%;
+    margin: 16px;
+}
+.gallery img{
+  padding-bottom: 10px;
+  width: 100%;
+}
+.textcontainer{
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+.row{
+    display: flex;
+}
+.textcontainer h5{
+    padding-top: 16px;
+}
+.textcontainer p{
+  margin: 8px 0 8px 0;
+}
+/* begin 4th quarter*/
+.titlecontainer{
+  display: block;
+  background-color: whitesmoke;
+}
+.info span{
+  margin-top: 24px;
+}
+/* footer section */
+footer{
+    display: flex;
+    font-size: 1rem;
+    padding-left: 24px;
+}
+footer h9{
+  flex-grow: 1;
+}
+footer p{
+    padding-right: 12px;
 }
