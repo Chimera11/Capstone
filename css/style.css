@@ -387,7 +387,7 @@ footer p{
         display: inline;
         height: 64px;
     }
-    .quarter4{
+    .quarter4, .quarter4content, .fourthimgcontent{
         display: none;
     }
     .video-wrapper{
