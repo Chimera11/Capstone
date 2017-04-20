@@ -251,6 +251,7 @@ footer{
     font-size: 1rem;
     padding-left: 24px;
     height: 64px;
+    align-items: center;
 }
 footer h9{
   flex-grow: 1;
@@ -277,7 +278,7 @@ footer p{
 .video-wrapper{
     display: none;
 }
-.quarter4{
+.mobile{
     display: none;
 }
 /* Quarter 1 section mediaquerys*/
@@ -382,6 +383,16 @@ footer p{
 }
 /* fourth quarter media querys */
 @media only screen and (max-width: 375px){
+    .mobile{
+        display: inline;
+        height: 64px;
+    }
+    .quarter4{
+        display: none;
+    }
+    .video-wrapper{
+        display: inline;
+    }
 .video-wrapper {
     position: relative;
 }
