@@ -277,6 +277,9 @@ footer p{
 .video-wrapper{
     display: none;
 }
+.quarter4{
+    display: none;
+}
 /* Quarter 1 section mediaquerys*/
 @media only screen and (max-width: 375px){
  .header, .desktop, .container.quarter{
