@@ -7,7 +7,7 @@ header{
   display: flex;
   align-items: center;
   height: 64px;
-  padding-left: 24px;
+  padding-left: 0 24px;
   max-width: 2000px;
 
 }
@@ -35,16 +35,16 @@ nav span{
 .mobile{
   display: none;
 }
+.mobilefooter{
+    display: none;
 }
 /*main section*/
 .main{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    font-size: 2rem;
     max-width: 2000px;
     width: 100%;
-    border: 1px solid gold;
 }
 }
 .container{
@@ -56,7 +56,7 @@ nav span{
     align-items: center;
     line-height: 1;
     margin: 0;
-    background-color: #d9d7c5;
+    background-color: #ECECEC;
     font-size: 4rem;
 }
 
@@ -176,10 +176,11 @@ nav span{
 /* begin Q3 */
 .courses{
   display: block;
-  background-color: #f2f2e9;
+  background-color: #f2f2f2;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  
 }
 .title{
   padding-top: 32px;
@@ -187,13 +188,13 @@ nav span{
   text-align: center;
 }
 .titletext h1{
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .classes{
     padding: 32px;
 }
 .description{
-    background-color: whitesmoke;
+    background-color: white;
     width: 33.333%;
     margin: 16px;
 }
@@ -290,11 +291,12 @@ footer p{
         display: flex;
         height: 64px;
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .mobile img{
-        width: 10%;
+        justify-content: space-between;
+        padding: 24px;
     }
     .mobileq1{
         display: inline;
@@ -312,6 +314,9 @@ footer p{
     .mobiletron h1{
         padding: 32px 0 32px 0;
         font-size: 2.5rem;
+    }
+    .button{
+        padding-bottom: 32px;
     }
     .button a{
     display: block;
@@ -383,54 +388,21 @@ footer p{
 }
 /* fourth quarter media querys */
 @media only screen and (max-width: 375px){
-    .mobile{
-        display: inline;
+    .mobilefooter{
+        display: flex;
         height: 64px;
-    }
-    .quarter4, .quarter4content, .fourthimgcontent{
-        display: none;
+        font-size: 0.7rem;
     }
     .video-wrapper{
         display: inline;
     }
-.video-wrapper {
-    position: relative;
-}
+    .quarter4, .quarter4content, .fourthimgcontent{
+        display: none;
 
-.video-wrapper > video {
-    width: 100%;
-    vertical-align: middle;
-}
-
-.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
-    display: none;
-}
-
-.video-overlay-play-button {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    padding: 10px calc(50% - 50px);
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    opacity: 0.95;
-    cursor: pointer;
-    background-image: linear-gradient(transparent, #000);
-    transition: opacity 150ms;
-}
-
-.video-overlay-play-button:hover {
-    opacity: 1;
-}
-
-.video-overlay-play-button.is-hidden {
-    display: none;
-}
 }
 @media only screen and (max-width: 375px){
     footer{
         display: none;
     }
 }
+        
