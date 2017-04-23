@@ -15,7 +15,7 @@
 
     <!-- header container below-->
 <header>
-  <div class="header">
+  <div class="imgheader">
     <img class="logo" src="css/assets/images/ic-logo.svg">
     <span  id="bold" class="name">Colmar</span><span class="name">Academy</span>
   </div>
@@ -36,36 +36,38 @@
 <div class="main">
     <!-- first quarter -->
     <!-- mobile first quarter -->
-  <div class="mobileq1">
-  <div class="mobilespace"></div>
+  <div class="mobileq1" role="presentation">
+    <div class="mobilespace" role="presentation">
+    </div>
     <div class="mobiletron">
       <h1>Learn something new everyday</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-      <div class="button"><a>Start Here</a></div>
+      <div class="button"><a>Start Here</a>
+      </div>
     </div>
   </div>
     <!-- desktop first quarter -->
   <div class="container quarter">
     <div class="banner">
-      <img src="css/assets/images/banner.jpg">
+      <img src="css/assets/images/banner.jpg" alt="People sitting at a picnic table studying">
     </div>
-    <div class="content">
-      <div class="learn">
+    <div class="content" role="presentation">
+      <div class="learn" role="presentation">
         <h1>Learn something new everyday</h1>
         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="button"><a href="#learn">Start Here</a></div>
+        <div class="button" role="presentation"><a href="#learn" aria-label="button to start learning link">Start Here</a></div>
       </div>
     </div>
   </div>
   <!-- second quarter of project.-->
   <!-- mobile second quarter -->
-  <div clas="mobileq2">
+  <div clas="mobileq2" role="presentation">
     <div class="mobilecolumn">
       <div class="mobilecontainer">
         <div class="mobilepics">
-          <img src="css/assets/images/information-orientation-mobile.jpg"/>
+          <img src="css/assets/images/information-orientation-mobile.jpg" alt="Top view of students walking on a stoned path"/>
         </div>
-        <div class="mobiletext">
+        <div class="mobiletext" aria-label="Information about Orientation">
             <h5>Orientation date</h5>
             <span>Tue 10/11 & Wed 10/12: 8am-3pm</span>
             <p>Read more</p>
@@ -75,9 +77,9 @@
     <div class="mobilecolumn">
       <div class="mobilecontainer">
         <div class="mobilepics">
-          <img src="css/assets/images/information-campus-mobile.jpg"/>
+          <img src="css/assets/images/information-campus-mobile.jpg" alt="Picture of the library with a map of south america on the wall"/>
         </div>
-        <div class="mobiletext">
+        <div class="mobiletext" aria-label="Information about the Campus">
             <h5>Our campus</h5>
             <span>Find which campus is close by you</span>
             <p>Read more</p>
@@ -87,9 +89,9 @@
     <div class="mobilecolumn">
       <div class="mobilecontainer">
         <div class="mobilepics">
-          <img src="css/assets/images/information-guest-lecture-mobile.jpg"/>
+          <img src="css/assets/images/information-guest-lecture-mobile.jpg" alt="Photo of a grey beared older gentleman with glasses and hat"/>
         </div>
-        <div class="mobiletext">
+        <div class="mobiletext" aria-label="Information about guest lecture">
             <h5>Special guest lecture</h5>
             <span>Join a keynote with Oliver Sack about music ain medical treatment</span>
             <p>Read more</p>
@@ -98,39 +100,39 @@
     </div>
   </div>
   <!-- desktop second quarter -->
-  <div class="quarter2">
+  <div class="quarter2" role="presentation">
     <div class="quarter2content">
       <div class="imgcontent">
         <div class="img">
-          <img src="css/assets/images/information-main.jpg">
+          <img src="css/assets/images/information-main.jpg" alt="Man reading in the park">
         </div>
-        <div class="txtcontent">
-          <h1>It doesn't hurt to keep practicing</h1>
+        <div class="txtcontent" role="presentation">
+          <h1 aria-label="Article title">It doesn't hurt to keep practicing</h1>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tritique ligula"</p>
           <p class="bold">Emanuel, Sr Strategist at Hiring.com</p>
         </div>
       </div>
     </div>
-    <div class="column">
+    <div class="column" role="presentation">
       <div class="pictures">
-        <img src="css/assets/images/information-orientation.jpg">
-        <div class="info">
+        <img src="css/assets/images/information-orientation.jpg" alt="Top view of students walking on a path">
+        <div class="info" aria-label="Information about orientation">
           <h4>Orientation date</h4>
           <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
           <a href="#">Read More</a>
         </div>
       </div>
       <div class="pictures">
-        <img src="css/assets/images/information-campus.jpg">
-        <div class="info">
+        <img src="css/assets/images/information-campus.jpg" alt="Photo of library with map of south america mounted on the wall">
+        <div class="info" aria-label="Information about the campus">
           <h4>Our Campus</h4>
           <p>Find which campus is nearest you!</p>
           <a href="#">Read More</a>
         </div>
       </div>
       <div class="pictures">
-        <img src="css/assets/images/information-guest-lecture.jpg">
-        <div class="info">
+        <img src="css/assets/images/information-guest-lecture.jpg" alt="Old greybeared gentleman smiles">
+        <div class="info" aria-label="Informatio about guest lecture">
           <h4>Our Guest Lecture</h4>
           <p>Join a keynote with Oliver Sack about music in medical treatment</p>
           <a href="#">Read more</a>
@@ -179,7 +181,7 @@
   </div>    
   </div>
   <!-- Desktop 3rd Quarter -->
-  <div class="courses">
+  <div class="courses" role="presentation">
     <div class="title">
       <div class="titletext">
         <h1 id="learn">Start Learning<h1/>
@@ -189,9 +191,9 @@
       <div class="row">
         <div class="description">
           <div class="gallery">
-            <img src="css/assets/images/course-software.jpg"/>
+            <img src="css/assets/images/course-software.jpg" alt="Photo of desktop computer"/>
           </div>
-          <div class="textcontainer">
+          <div class="textcontainer" aria-label="Information about the courses">
             <h5>Software engineering</h5>
             <p>Courses</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
@@ -199,9 +201,9 @@
         </div>
         <div class="description">
           <div class="gallery">
-            <img src="css/assets/images/course-computer-art.jpg"/>
+            <img src="css/assets/images/course-computer-art.jpg" alt="Photo of a person holding a mobile device"/>
           </div>
-          <div class="textcontainer">
+          <div class="textcontainer" aria-labe="information about the courses">
             <h5>Computer Art</h5>
             <p class=>Courses</p>
             <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
@@ -209,9 +211,9 @@
         </div>
         <div class="description">
           <div class="gallery">
-            <img src="css/assets/images/course-design.jpg"/>
+            <img src="css/assets/images/course-design.jpg" alt="A person photographing out of sight object"/>
           </div>
-          <div class="textcontainer">
+          <div class="textcontainer"aria-label="Information about the courses">
             <h5>Design</h5>
             <p>Courses</p>
             <p>User Experience Design, User Research, Visiual Design</p>
@@ -221,9 +223,9 @@
       <div class="row">
         <div class="description">
           <div class="gallery">
-            <img src="css/assets/images/course-data.jpg"/>
+            <img src="css/assets/images/course-data.jpg" aria-label="Photo of a desktop"/>
           </div>
-          <div class="textcontainer">
+          <div class="textcontainer" aria-label="Information about the courses">
             <h5>Data</h5>
             <p>Courses</p>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
@@ -231,9 +233,9 @@
         </div>
         <div class="description">
           <div class="gallery">
-            <img src="css/assets/images/course-business.jpg"/>
+            <img src="css/assets/images/course-business.jpg" aria-label="Photo of a chess table"/>
           </div>
-          <div class="textcontainer">
+          <div class="textcontainer" aria-label="Information about the courses">
             <h5>Business</h5>
             <p>Courses</p>
             <p>Product Development, Business Development, Startup</p>
@@ -241,9 +243,9 @@
         </div>
         <div class="description">
           <div class="gallery">
-            <img src="css/assets/images/course-marketing.jpg"/>
+            <img src="css/assets/images/course-marketing.jpg" alt="photo of a person sporting a smarwatch"/>
           </div>
-          <div class="textcontainer">
+          <div class="textcontainer" aria-label="Information about the courses">
             <h5>Marketing</h5>
             <p>Courses</p>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
@@ -257,40 +259,40 @@
   </div>
   <!-- end of third quarter -->
   <!-- begin 4th Q -->
-    <div class="titlecontainer">
+    <div class="titlecontainer" role="presentation">
       <div class="title">
         <div class="titletext">
           <h1>Thesis Exhibit</h1>
         </div>
       </div>
     </div>
-    <div class="video-wrapper">
-    <video src="css/assets/videos/thesis.mp4" width="100%;" height="240" controls="play"></video>
+    <div class="video-wrapper" role="presnetation">
+    <video src="css/assets/videos/thesis.mp4" width="100%;" height="240" controls="play" alt="video of a developement area"></video>
 </div>
     </div>
-    <div class="quarter4">
+    <div class="quarter4" role="presentation">
       <div class="quarter4content">
         <div class="fourthimgcontent">
           <div class="video">
-            <video src="css/assets/videos/thesis.mp4" width="100%" controls="play"></video>
+            <video src="css/assets/videos/thesis.mp4" alt="Video of a development are for thesis" width="100%" controls="play"></video>
           </div>
-          <div class="txtcontent">
+          <div class="txtcontent" aria-label="Information about the Thesis section">
             <h1>Reimagine urban</h1>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tritique ligula"</p>
           </div>
         </div>
       </div>
-      <div id="disnone" class="secondcolumn">
+      <div id="disnone" class="secondcolumn" role="presentation">
         <div class="pictures">
-          <img src="css/assets/images/thesis-fisma.jpg">
-          <div class="info">
+          <img src="css/assets/images/thesis-fisma.jpg" alt="Photo of an outofsight person reaching in to do work">
+          <div class="info" aria-label="design information">
             <h4>Fisma: Design</h4>
             <span>Designer showcase of new prototype product</span>
           </div>
         </div>
         <div class="pictures">
-          <img src="css/assets/images/thesis-now-and-then.jpg">
-          <div class="info">
+          <img src="css/assets/images/thesis-now-and-then.jpg" alt="Photo of empire state building">
+          <div class="info" aria-label="information about study">
             <h4>Now and Then</h4>
             <p>Research study about New York</p>
           </div>

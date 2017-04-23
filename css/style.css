@@ -11,7 +11,7 @@ header{
   max-width: 2000px;
 
 }
-.header{
+.imgheader{
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -284,18 +284,18 @@ footer p{
 }
 /* Quarter 1 section mediaquerys*/
 @media only screen and (max-width: 375px){
- .header, .desktop, .container.quarter{
-        display: none;
-    }
-    .mobile{
-        display: flex;
-        height: 64px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
+.imgheader, .desktop, .container.quarter{
+  display: none;
+}
+    
+.mobile{
+  display: flex;
+  height: 64px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
     .mobile img{
-        justify-content: space-between;
         padding: 24px;
     }
     .mobileq1{
